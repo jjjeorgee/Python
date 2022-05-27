@@ -1,6 +1,5 @@
 from tkinter import W
 
-
 def collatz(number):
     if number == 1:
         print('Loop completed')
@@ -11,5 +10,9 @@ def collatz(number):
         print(3 * int(number) + 1)
         (collatz(number*3+1)) 
 
-collatz(9)
-
+#input validation 
+try:
+    collatz(int(input('Input an integer greater than 1: ')))
+except ValueError:
+    print('None integer detected', end =', ')
+    print('Program will close now.')
