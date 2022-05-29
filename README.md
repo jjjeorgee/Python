@@ -1,2 +1,2 @@
 # Python
- Python codes and mini projects 
+ Python codes, notes and mini projects 
