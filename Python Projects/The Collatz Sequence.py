@@ -1,5 +1,3 @@
-from tkinter import W
-
 #creating a collatz sequence with python 
 def collatz(number):
     if number == 1:
