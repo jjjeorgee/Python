@@ -9,6 +9,7 @@ def printBoard(board):
     print('-+-+-')    
     print(board['LL'] + '|' + board['LM'] + '|' + board['LR']) 
     
+# The keys entered into move will have their values replaced with X or O 
 turn = 'X' 
 for i in range(9):
         printBoard(theBoard)    
