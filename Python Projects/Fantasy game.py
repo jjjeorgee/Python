@@ -5,7 +5,8 @@ def displayInventory(stuff):
     print('Inventory:')
     total_items = 0
     for keys, values in stuff.items():
-        total_items = total_items + stuff.get(stuff, 0)
+        print(str(values) + ' ' + keys)
+        total_items += values
         
     print("Total number of items: " + str(total_items))
 
